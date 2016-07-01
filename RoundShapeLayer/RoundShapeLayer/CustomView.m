@@ -12,7 +12,7 @@
 
 @property(nonatomic,strong)CAShapeLayer *shapeLayer1;
 @property (nonatomic,strong)CAShapeLayer *shapeLayer2;
-
+//
 @end
 
 @implementation CustomView
@@ -26,7 +26,7 @@
     return self;
 }
 
-
+//设置progress,通过progress来绘图
 - (void)setProgress:(CGFloat)progress{
     _progress = progress;
     [_shapeLayer1 removeAllAnimations];	
